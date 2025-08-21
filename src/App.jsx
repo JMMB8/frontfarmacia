@@ -22,7 +22,7 @@ import Pagos from "./components/Pagos";
 import IzipayPayment from "./components/IzipayPayment";
 import Confirmacion from "./components/Confirmacion";
 import MisPedidos from "./components/MisPedidos";
-import TerminosCondiciones from "./pages/TerminosCondiciones.JSX";
+import TerminosCondiciones from "./pages/TerminosCondiciones.jsx";
 import PoliticaPrivacidad from "./components/PoliticaPrivacidad";
 import AtencionFarmaceutica from "./pages/AtencionFarmaceutica";
 import GestionDePedidos from "./components/GestionDePedidos";
@@ -86,13 +86,24 @@ const App = () => {
                 path="/restablecer-contrasena"
                 element={<ResetPassword />}
               />
-              <Route path="/terminos-y-condiciones" element={<TerminosCondiciones />} />
-              <Route path="/politica-de-privacidad" element={<PoliticaPrivacidad />} />
-              <Route path="/atencion-farmaceutica" element={<AtencionFarmaceutica />} />
+              <Route
+                path="/terminos-y-condiciones"
+                element={<TerminosCondiciones />}
+              />
+              <Route
+                path="/politica-de-privacidad"
+                element={<PoliticaPrivacidad />}
+              />
+              <Route
+                path="/atencion-farmaceutica"
+                element={<AtencionFarmaceutica />}
+              />
               <Route path="/user-management" element={<UserManagement />} />
-              <Route path="/preguntas-frecuentes" element={<PreguntasFrecuentes />} />
+              <Route
+                path="/preguntas-frecuentes"
+                element={<PreguntasFrecuentes />}
+              />
               <Route path="/admin-pagos" element={<AdminPagos />} />
-            
             </Routes>
           </div>
           <Footer />
