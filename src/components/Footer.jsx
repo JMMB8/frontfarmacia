@@ -1,7 +1,7 @@
 import React from "react";
 import { Box, Typography, Grid } from "@mui/material";
 import visaLogo from "../img/visa.png";
-import mastercardLogo from "../img/mastercard.png";
+import mastercardLogo from "../img/masterCard.png";
 import amexLogo from "../img/amex.png";
 import { Link } from "react-router-dom";
 import logo from "../img/logo_rojo.png";
